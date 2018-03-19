@@ -1,9 +1,9 @@
 Deep Learning models for Brain Computer Interfaces
 =================================================
 
-This repository contains models that can be used to decode EEG and EEG signals
-for brain computer interfaces (BCIs). Some of the models depend on the
-functionality that is provided by ``gumpy``, a python toolbox which contains
+This repository contains deep learning models that can be used to decode EEG and
+EEG signals for brain computer interfaces (BCIs). Some of the models depend on
+the functionality that is provided by ``gumpy``, a python toolbox which contains
 several signal and feature processing routines that are commonly used for BCIs.
 
 
