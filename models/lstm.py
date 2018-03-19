@@ -5,7 +5,7 @@ from keras.layers import SimpleRNN, Dense, LSTM as _LSTM
 
 class LSTM(KerasModel):
 
-    def create_model(input_shape, num_hidden_neurons=128,
+    def create_model(self, input_shape, num_hidden_neurons=128,
                       num_layers=1, dropout=0.2, recurrent_dropout=0.2,
                       print_summary=False):
 

@@ -7,7 +7,7 @@ from keras.layers import SimpleRNN, Dense, Conv2D, Dropout, BatchNormalization, 
 
 class Shallow_CNN(KerasModel):
 
-    def create_model(augmented_data=True, print_summary=False, downsampled=False):
+    def create_model(self, augmented_data=True, print_summary=False, downsampled=False):
 
         CLASS_COUNT = 2
         model = Sequential()

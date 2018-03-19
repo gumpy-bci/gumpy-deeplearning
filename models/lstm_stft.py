@@ -4,7 +4,7 @@ from keras.models import Sequential
 from keras.layers import SimpleRNN, Dense, LSTM, Dropout
 
 class LSTM_STFT(KerasModel):
-    def create_model(input_shape, num_hidden_neurons=128,
+    def create_model(self, input_shape, num_hidden_neurons=128,
                            num_layers=1, n_dft=128, n_hop=16, dropout=0.0, recurrent_dropout=0.0,
                            print_summary=False):
         model = Sequential()
