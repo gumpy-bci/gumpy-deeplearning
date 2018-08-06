@@ -21,7 +21,7 @@ def load_preprocess_data(data, debug, lowcut, highcut, w0, Q, anti_drift, class_
           %(lowcut, highcut))
 
         data_notch_filtered = gumpy.signal.notch(data_loaded.raw_data, cutoff, axis)
-        data_hp_filtered = gumpy.signal.butter_highpass(data_notch_filtered, cutoff, axis)
+        data_hp_filtered = gumpy.signal.butter_highpass(data_notch_filtered, anti_drift, axis)
         data_bp_filtered = gumpy.signal.butter_bandpass(data_hp_filtered, lowcut, highcut, axis)
 
         # Split data into classes.

@@ -6,3 +6,4 @@ from .lstm import LSTM
 from .lstm_stft import LSTM_STFT
 from .shallow_cnn import Shallow_CNN
 from .vanilla_rnn import Vanilla_RNN
+from .rcnn import RCNN

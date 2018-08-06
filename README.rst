@@ -18,6 +18,7 @@ gumpy-deeplearning core developers and contributors
 ======================================
 * Zied Tayeb
 * Nicolai Waniek, www.github.com/rochus
+* Nejla Ghaboosi
 * Juri Fedjae
 * Leonard Richly
 
